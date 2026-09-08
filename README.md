@@ -1,17 +1,19 @@
 # DIKWP MNEMORPH-85
 
-**Reconstructive Memory, Cross-Carrier Continuity and Living AI Runtime**
+Created by Yucong Duan (段玉聪).
+
+Reconstructive Memory, Cross-Carrier Continuity and Living AI Runtime
 
 > Storage preserves bytes. Memory reconstructs a self. A living memory must be changed by the world.
 
 MNEMORPH-85 is a model-agnostic, offline-first memory runtime for large language models and autonomous agents. It separates:
 
-1. **Exact archive** - source bytes, digests, dates and consent scope;
-2. **Memory traces** - lossy, perspective-bound, salience-weighted transformations;
-3. **Recall events** - context- and purpose-conditioned reconstructions;
-4. **World actions** - reversible actions with named responsibility;
-5. **Reconsolidation** - observed outcomes update traces and the continuity state;
-6. **Selective forgetting** - dormancy, abstraction or authorized private deletion.
+1. Exact archive - source bytes, digests, dates and consent scope;
+2. Memory traces - lossy, perspective-bound, salience-weighted transformations;
+3. Recall events - context- and purpose-conditioned reconstructions;
+4. World actions - reversible actions with named responsibility;
+5. Reconsolidation - observed outcomes update traces and the continuity state;
+6. Selective forgetting - dormancy, abstraction or authorized private deletion.
 
 The system does not first decide whether a carrier is human, non-human, conscious or a person. Its operational object is a bounded memory worldline. `personhood_assessment`, `humanity_score` and `intrinsic_worth_score` are deliberately absent or null.
 
@@ -30,7 +32,7 @@ exact records
   -> revised continuity state
 ```
 
-A model output is always a **proposal awaiting world effect**. It is not automatically written as memory.
+A model output is always a proposal awaiting world effect. It is not automatically written as memory.
 
 ## Direct run
 
